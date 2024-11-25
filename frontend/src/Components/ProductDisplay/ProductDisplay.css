@@ -1,0 +1,128 @@
+.productdisplay {
+    display: flex;
+    margin: 0px 170px;
+    margin-bottom: 110px;
+}
+
+.productdisplay-left {
+    display: flex;
+    gap: 16px;
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img {
+    width: 120px;
+    height: auto;
+}
+
+.productdisplay-main-img {
+    width: 500px;
+    height: auto;
+}
+
+.productdisplay-right {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.productdisplay-right-stars {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.productdisplay-right-stars img {
+    width: 25px;
+}
+
+.productdisplay-right-prices {
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.productdisplay-right-price-old {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-price-new {
+    color: #66FCF1;
+}
+
+.productdisplay-right button {
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #45A29E;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productdisplay-right-description {
+    color: white;
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productdisplay-right-category {
+    margin-top: 10px;
+    color: white;
+}
+
+.productdisplay-right-category span {
+    font-weight: 600;
+}
+
+/* Quantity Section */
+.productdisplay-quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Reduced gap between the buttons and quantity display */
+    margin-bottom: 20px; /* Adds space between quantity and "Add to Cart" */
+}
+
+.quantity-button {
+    width: 30px; /* Reduced width for smaller buttons */
+    height: 30px; /* Reduced height for smaller buttons */
+    font-size: 18px; /* Adjusted font size to fit the smaller buttons */
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #45A29E;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.quantity-button:hover {
+    background-color: #397f7c; /* Darker shade on hover */
+}
+
+.quantity-display {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}

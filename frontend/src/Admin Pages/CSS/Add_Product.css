@@ -1,0 +1,25 @@
+/* Add_Product.css */
+.add-product-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 250px; /* Adjust based on your design */
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+}
+
+.add-product {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+}

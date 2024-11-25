@@ -1,0 +1,40 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    padding-top: 50px;
+
+    transform: translateY(150px);
+    transition: transform 1s ease-out;
+}
+
+.popular.visible {
+    transform: translateY(0);
+}
+
+.popular h1{
+    color: White;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #45A29E;
+    border: none;
+}
+.popular-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+.popular-item img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}

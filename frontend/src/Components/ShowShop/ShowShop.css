@@ -1,0 +1,94 @@
+.showshop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    padding-top: 50px;
+}
+.showshop h1{
+    color: White;
+    font-size: 50px;
+    font-weight: 600;
+}
+.showshop hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #45A29E;
+    border: none;
+}
+.showshop-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+.showshop-item img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px; /* Space between buttons */
+}
+
+.pagination button {
+    padding: 10px 20px;
+    border: 2px solid #45A29E;
+    border-radius: 8px;
+    background-color: white; /* Neutral background */
+    color: #45A29E; /* Button text color */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #45A29E; /* Highlight color */
+    color: white; /* Invert text color */
+}
+
+.pagination button.active {
+    background-color: #45A29E; /* Active button color */
+    color: white;
+}
+
+.pagination button:disabled {
+    background-color: #ddd; /* Disabled button background */
+    color: #aaa; /* Disabled button text */
+    cursor: not-allowed;
+}
+
+.filters {
+    width: 250px;
+    margin-right: 20px;
+  }
+  
+  .filter-price, .filter-category {
+    margin-bottom: 20px;
+  }
+  
+  .price-slider {
+    width: 100%;
+  }
+  
+  .category-checkbox {
+    margin-bottom: 10px;
+  }
+  
+  .showshop-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }

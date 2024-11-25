@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+.signup{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(180deg, #0B0C10, #1F2838 60%)0;
+}
+.signup-container{
+    width: 580px;
+    height: 600px;
+    background: #C5C6C7;
+    margin: auto;
+    padding: 40px 60px;
+}
+.signup-container h1{
+    margin: 20px 0px;
+}
+.signup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.signup-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid white;
+    outline: none;
+    color: gray;
+    font-size: 18px;
+}
+.signup-container button{
+    width: 580px;
+    height: 72px;
+    color: #0B0C10;
+    background: #45A29E;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.signup-login{
+    margin-top: 20px;
+    color: #0B0C10;
+    font-size: 18px;
+    font-weight: 500;
+}
+.signup-login span{
+    color: #45A29E;
+    font-weight: 600;
+}
+.signup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #0B0C10;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Style the link in the sign up form */
+.text-link {
+    color: #45A29E;  /* Link color */
+    font-size: 18px;  /* Font size */
+    font-weight: 500;  /* Font weight */
+    text-decoration: none;  /* Remove underline */
+    transition: color 0.3s ease;  /* Smooth color transition on hover */
+}
+
+/* Change color when hovered */
+.text-link:hover {
+    color: #66FCF1;  /* Lighter color on hover */
+    text-decoration: underline;  /* Add underline on hover */
+}

@@ -1,0 +1,18 @@
+.order-page-container {
+    display: flex;
+    background-color: #f4f4f4; /* Optional background color */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .order-page-container .Sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    flex-shrink: 0;
+  }
+  
+  .order-list-container {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto; /* Handle overflow */
+  }
+  

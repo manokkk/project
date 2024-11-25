@@ -1,0 +1,41 @@
+.categorydisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    padding-top: 50px;
+}
+.categorydisplay h1{
+    color: White;
+    font-size: 50px;
+    font-weight: 600;
+}
+.categorydisplay hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #45A29E;
+    border: none;
+}
+.categorydisplay-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+    cursor: pointer;
+}
+.categorydisplay-item img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.category-item p{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
